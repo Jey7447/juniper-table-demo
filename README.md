@@ -38,3 +38,7 @@ Some menu photography is sourced from Wikimedia Commons. Check each file page fo
 - [Chopped suya with jollof rice](https://malamishaku.com/menu/eedbf174-18c5-474a-bb45-7f5da27191eb) — served from the restaurant menu image CDN; confirm reuse permission before commercial use.
 
 The remaining continental dish photos are illustrative stock imagery. Replace them with restaurant-owned or properly licensed images before a production launch.
+
+- [Creamy chicken fettuccine Alfredo](https://belappetit.com/recipes/fettuccines-alfredo-poulet-creme) — image served by Belappetit; confirm reuse permission before commercial use.
+
+Menu images are demonstration photography, not proof of the restaurant's actual dishes. Before a real restaurant launch, replace them with photographs supplied by the business or images with a suitable commercial licence.
