@@ -2,6 +2,10 @@
 
 A responsive fictional restaurant website created as a QORVI Studio portfolio demonstration.
 
+## Portfolio case study
+
+See [CASE-STUDY.md](CASE-STUDY.md) for the project brief, design decisions, demonstrated ordering flow, limitations and portfolio-ready summary.
+
 ## Features
 - Responsive landing page and restaurant story
 - Searchable menu with category filters
