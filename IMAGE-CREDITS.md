@@ -1,8 +1,8 @@
 # Image credits
 
-The Juniper Table demo uses the following photographs from Wikimedia Commons. Both are licensed under Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0). Please retain these credits and the license links if the images remain in use.
+The Juniper Table demo uses photographs hosted by Pexels. Both are marked free to use on their Pexels pages. The photos are served from Pexels' image CDN.
 
-1. **Hero: Jerk Chicken and Jollof rice** — photograph by **odogwu123** (Vanilla restaurant, Abuja; 11 February 2014). [Source](https://commons.wikimedia.org/wiki/File:Jerk_Chicken_and_Jollof_rice.jpg) · [License](https://creativecommons.org/licenses/by-sa/4.0/)
-2. **Story feature: Suya meat** — photograph by **MOIBARDE** (6 March 2025). [Source](https://commons.wikimedia.org/wiki/File:Suya_meat.jpg) · [License](https://creativecommons.org/licenses/by-sa/4.0/)
+1. **Hero: Jollof rice and chicken platter in an Abuja café** — Harrun Muhammad, Pexels. [Photo page](https://www.pexels.com/photo/jollof-rice-and-chicken-meal-in-abuja-cafe-setting-37538487/).
+2. **Story feature: Nigerian buffet with fried plantain and skewers, Abuja** — Ndagi Idris, Pexels. [Photo page](https://www.pexels.com/photo/delicious-african-plantain-and-skewers-buffet-36458103/).
 
-Images are loaded from Wikimedia's image CDN, not stored in this repository. If you later download and self-host them, preserve the attribution and comply with CC BY-SA 4.0.
+Please retain these credits in the project documentation. Images are not stored in this repository; they are loaded from Pexels.
