@@ -3,3 +3,37 @@
 @media(max-width:620px){.site-header{height:70px}.desktop-nav{display:none;position:absolute;top:70px;left:0;right:0;background:var(--paper);padding:20px 6vw;flex-direction:column;border-bottom:1px solid var(--line)}.desktop-nav.open{display:flex}.menu-toggle{display:block}.hero{display:flex;flex-direction:column;padding-top:38px;gap:25px}.hero-copy{padding:0 0 5px}.hero h1{font-size:61px}.hero-text{font-size:13px}.hero-note{margin-top:35px}.hero-art{padding:0 12px 35px 0}.hero-photo{height:330px}.hero-caption{left:-8px}.hero-bottom{position:static;margin-top:8px;font-size:7px}.hero-bottom span:nth-child(2){display:none}.section-pad{padding:70px 6vw}.section-heading{display:block}.section-heading>p{margin-top:20px}.menu-toolbar{align-items:flex-start;flex-direction:column;margin:30px 0 20px}.categories{flex-wrap:nowrap;overflow:auto;width:100%;padding-bottom:6px}.category{white-space:nowrap}.search-wrap{width:100%}.search-wrap input{width:100%}.menu-grid{grid-template-columns:1fr;gap:17px}.dish-image{height:240px}.menu-foot{font-size:7px;gap:12px}.menu-foot span:nth-child(2){display:none}.feature-band{grid-template-columns:1fr}.feature-image{min-height:280px;height:280px}.feature-copy{padding:55px 7vw}.feature-copy h2{font-size:48px}.visit-section{grid-template-columns:1fr;gap:40px}.visit-details{gap:20px}.footer{padding:25px 6vw;gap:20px;flex-wrap:wrap}.footer>span:nth-child(2){display:none}.cart-drawer{padding:23px}.checkout-modal{padding:22px}.form-grid{grid-template-columns:1fr}.form-grid .wide{grid-column:auto}.success-card{padding:30px 22px}.hero-actions{gap:16px}.button{padding:15px 16px}.brand{font-size:10px}}
 .dish-image.image-unavailable{background:#e5ddcf;display:grid;place-items:center}
 .dish-image.image-unavailable::after{content:"FOOD PHOTO COMING SOON";font-size:9px;font-weight:800;letter-spacing:1.5px;color:#817a70}
+
+
+/* Mobile usability refinements */
+@media(max-width:620px){
+  .site-header{position:sticky;top:0;z-index:35;padding-left:5vw;padding-right:5vw;gap:10px}
+  .header-actions{gap:8px}
+  .cart-button{min-height:44px;padding:11px 13px;white-space:nowrap}
+  .menu-toggle{min-width:44px;min-height:44px;padding:6px}
+  .desktop-nav{z-index:36}
+  .cart-drawer{width:100%;height:100dvh;padding:22px 18px max(18px,env(safe-area-inset-bottom))}
+  .cart-items{min-height:0}
+  .cart-row{grid-template-columns:58px minmax(0,1fr) auto;gap:10px}
+  .cart-row img{width:58px;height:58px}
+  .cart-row h4{font-size:14px}
+  .cart-row>div:last-child{font-size:12px;white-space:nowrap}
+  .qty-controls{gap:8px}
+  .qty-controls button{width:32px;height:32px;min-width:32px}
+  .remove-item{padding:7px}
+  .cart-summary{padding-bottom:env(safe-area-inset-bottom)}
+  .modal-backdrop{padding:0;place-items:end center}
+  .checkout-modal{width:100%;max-height:94dvh;border-radius:16px 16px 0 0;padding:22px 18px max(22px,env(safe-area-inset-bottom))}
+  .form-grid{gap:14px;margin:18px 0}
+  .form-grid input,.form-grid textarea{font-size:16px;min-height:46px}
+  .form-grid textarea{min-height:72px}
+  .form-grid fieldset{flex-wrap:wrap}
+  .radio-label{min-height:36px}
+  .success-modal{overflow-y:auto;align-items:start;padding:16px}
+  .success-card{width:100%;margin:auto 0;padding:30px 20px}
+  .button,.add-button,.category,.icon-button{min-height:42px}
+}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{scroll-behavior:auto!important;transition-duration:.01ms!important;animation-duration:.01ms!important}
+}
