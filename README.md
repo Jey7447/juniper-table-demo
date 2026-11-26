@@ -27,3 +27,14 @@ Replace fictional business details, prices, images, location, hours and contact 
 - Food photos are loaded from Unsplash URLs and require an internet connection.
 - Currency is displayed in Nigerian naira.
 - This is a front-end demonstration, not a production ordering system.
+
+
+## Food image sources and credits
+Some menu photography is sourced from Wikimedia Commons. Check each file page for the creator and licence terms before reusing the demo commercially:
+- [Jollof rice and grilled chicken](https://commons.wikimedia.org/wiki/File:Jollof_rice_and_grilled_chicken.jpg)
+- [Egusi soup with pounded yam and assorted meats](https://commons.wikimedia.org/wiki/File:Egusi_soup_with_pounded_yam_and_assorted_meats.jpg) — Onyenachi64, CC BY-SA 4.0.
+- [Chapman drink](https://commons.wikimedia.org/wiki/File:Chapman_drink.jpg) — secretlondon123, CC BY-SA 2.0.
+- [Puff-Puff](https://commons.wikimedia.org/wiki/File:Puff-Puff.jpg) — Albertoblaq, CC BY-SA 4.0.
+- [Chopped suya with jollof rice](https://malamishaku.com/menu/eedbf174-18c5-474a-bb45-7f5da27191eb) — served from the restaurant menu image CDN; confirm reuse permission before commercial use.
+
+The remaining continental dish photos are illustrative stock imagery. Replace them with restaurant-owned or properly licensed images before a production launch.
